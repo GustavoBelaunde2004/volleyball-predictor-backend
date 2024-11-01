@@ -1,8 +1,10 @@
 import pandas as pd
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.ensemble import RandomForestRegressor
+from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import joblib
+import numpy as np
 
 # Load match data
 data = pd.read_csv('C:/GUSTAVO/Projects/volley/volley-backend/superlega_matches_large.csv')
@@ -36,34 +38,50 @@ X_expanded_df = pd.DataFrame(X_expanded, columns=[
     'home_avg_points', 'home_win_rate', 'away_avg_points', 'away_win_rate', 'match_winner', 'set_number'
 ])
 
+# Standardize features
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X_expanded_df)
+
 # Split data into training and testing sets
-X_train, X_test, y_train_home, y_test_home = train_test_split(X_expanded_df, y_home_flat, test_size=0.2, random_state=42)
-_, _, y_train_away, y_test_away = train_test_split(X_expanded_df, y_away_flat, test_size=0.2, random_state=42)
+X_train, X_test, y_train_home, y_test_home = train_test_split(X_scaled, y_home_flat, test_size=0.2, random_state=42)
+_, _, y_train_away, y_test_away = train_test_split(X_scaled, y_away_flat, test_size=0.2, random_state=42)
 
-# Train models
-model_home_set_scores = RandomForestRegressor(random_state=42)
-model_away_set_scores = RandomForestRegressor(random_state=42)
+# Define a parameter grid for tuning
+param_grid = {
+    'n_estimators': [50, 100, 150],
+    'max_depth': [10, 20, None],
+    'min_samples_split': [2, 5, 10]
+}
 
-model_home_set_scores.fit(X_train, y_train_home)
-model_away_set_scores.fit(X_train, y_train_away)
+# Use GridSearchCV to find the best model for home set scores
+home_grid_search = GridSearchCV(RandomForestRegressor(random_state=42), param_grid, cv=3, scoring='neg_mean_absolute_error', n_jobs=-1)
+home_grid_search.fit(X_train, y_train_home)
+best_home_model = home_grid_search.best_estimator_
 
-# Make predictions on the test set
-y_pred_home = model_home_set_scores.predict(X_test)
-y_pred_away = model_away_set_scores.predict(X_test)
+# Use GridSearchCV to find the best model for away set scores
+away_grid_search = GridSearchCV(RandomForestRegressor(random_state=42), param_grid, cv=3, scoring='neg_mean_absolute_error', n_jobs=-1)
+away_grid_search.fit(X_train, y_train_away)
+best_away_model = away_grid_search.best_estimator_
 
-# Calculate evaluation metrics
-print("Home Set Score Prediction Metrics:")
-print("Mean Absolute Error:", mean_absolute_error(y_test_home, y_pred_home))
-print("Mean Squared Error:", mean_squared_error(y_test_home, y_pred_home))
-print("R^2 Score:", r2_score(y_test_home, y_pred_home))
+# Predictions on the test set
+y_pred_home = best_home_model.predict(X_test)
+y_pred_away = best_away_model.predict(X_test)
 
-print("\nAway Set Score Prediction Metrics:")
-print("Mean Absolute Error:", mean_absolute_error(y_test_away, y_pred_away))
-print("Mean Squared Error:", mean_squared_error(y_test_away, y_pred_away))
-print("R^2 Score:", r2_score(y_test_away, y_pred_away))
+# Evaluate performance metrics
+def print_metrics(y_true, y_pred, team_type):
+    print(f"\n{team_type} Set Score Prediction Metrics:")
+    print(f"Mean Absolute Error: {mean_absolute_error(y_true, y_pred)}")
+    print(f"Mean Squared Error: {mean_squared_error(y_true, y_pred)}")
+    print(f"Root Mean Squared Error: {np.sqrt(mean_squared_error(y_true, y_pred))}")
+    print(f"R^2 Score: {r2_score(y_true, y_pred)}")
+
+print_metrics(y_test_home, y_pred_home, "Home")
+print_metrics(y_test_away, y_pred_away, "Away")
 
 # Save the models
-joblib.dump(model_home_set_scores, 'app/models/home_set_score_model.pkl')
-joblib.dump(model_away_set_scores, 'app/models/away_set_score_model.pkl')
+joblib.dump(best_home_model, 'app/models/home_set_score_model.pkl')
+joblib.dump(best_away_model, 'app/models/away_set_score_model.pkl')
 
-print("Set score prediction models trained, tested, and saved successfully.")
+print("Set score prediction models trained, optimized, and saved successfully.")
+print("Best parameters for home set model:", home_grid_search.best_params_)
+print("Best parameters for away set model:", away_grid_search.best_params_)
