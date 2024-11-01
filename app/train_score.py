@@ -16,7 +16,7 @@ data = data.merge(team_stats, left_on='Home Team', right_on='Team').rename(colum
 data = data.merge(team_stats, left_on='Away Team', right_on='Team').rename(columns={'avg_points': 'away_avg_points', 'win_rate': 'away_win_rate'})
 data = data.drop(columns=['Team_x', 'Team_y'])
 
-# Prepare expanded training data
+# Prepare expanded training data with match state features
 X_expanded = []
 y_home_flat = []
 y_away_flat = []
@@ -25,17 +25,31 @@ for _, row in data.iterrows():
     home_set_scores = list(map(int, row['Home Set Scores'].split()))
     away_set_scores = list(map(int, row['Away Set Scores'].split()))
     
+    home_sets_won, away_sets_won = 0, 0
     for set_number, (home_score, away_score) in enumerate(zip(home_set_scores, away_set_scores), start=1):
+        # Stop recording sets after one team reaches 3 wins
+        if home_sets_won == 3 or away_sets_won == 3:
+            break
+        
+        # Append the match state feature
         X_expanded.append([
             row['home_avg_points'], row['home_win_rate'],
             row['away_avg_points'], row['away_win_rate'],
-            row['match_winner'], set_number
+            row['match_winner'], set_number,
+            home_sets_won, away_sets_won  # Current match state
         ])
         y_home_flat.append(home_score)
         y_away_flat.append(away_score)
+        
+        # Update set win counts
+        if home_score > away_score:
+            home_sets_won += 1
+        else:
+            away_sets_won += 1
 
 X_expanded_df = pd.DataFrame(X_expanded, columns=[
-    'home_avg_points', 'home_win_rate', 'away_avg_points', 'away_win_rate', 'match_winner', 'set_number'
+    'home_avg_points', 'home_win_rate', 'away_avg_points', 'away_win_rate', 'match_winner', 'set_number',
+    'home_sets_won', 'away_sets_won'
 ])
 
 # Standardize features
