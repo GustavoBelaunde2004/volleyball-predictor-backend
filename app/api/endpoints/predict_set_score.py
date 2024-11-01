@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from schemas.prediction import SetScorePredictionRequest, SetScorePredictionResponse
+from app.schemas.prediction import SetScorePredictionRequest, SetScorePredictionResponse
 import pandas as pd
 from app.models.model_loader import load_home_set_score_model, load_away_set_score_model
 

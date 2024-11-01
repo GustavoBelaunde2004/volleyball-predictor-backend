@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from schemas.prediction import MatchPredictionRequest, MatchDetailsResponse
+from app.schemas.prediction import MatchPredictionRequest, MatchDetailsResponse
 import pandas as pd
 from app.models.model_loader import load_match_winner_model, load_home_sets_won_model, load_away_sets_won_model, load_home_set_score_model, load_away_set_score_model
 
