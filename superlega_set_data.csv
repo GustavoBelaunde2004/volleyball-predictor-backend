@@ -1,0 +1,719 @@
+date_time,home_team,away_team,set_number,home_set_score,away_set_score,home_score,away_score
+28.04. 11:00,Monza,Perugia,1,25,19,1,3
+28.04. 11:00,Monza,Perugia,2,23,25,1,3
+28.04. 11:00,Monza,Perugia,3,25,27,1,3
+28.04. 11:00,Monza,Perugia,4,20,25,1,3
+27.04. 13:30,Milano,Trentino,1,25,21,3,1
+27.04. 13:30,Milano,Trentino,2,18,25,3,1
+27.04. 13:30,Milano,Trentino,3,25,20,3,1
+27.04. 13:30,Milano,Trentino,4,25,21,3,1
+27.04. 11:00,Verona,Lube Civitanova,1,25,23,1,3
+27.04. 11:00,Verona,Lube Civitanova,2,18,25,1,3
+27.04. 11:00,Verona,Lube Civitanova,3,24,26,1,3
+27.04. 11:00,Verona,Lube Civitanova,4,22,25,1,3
+25.04. 11:00,Perugia,Monza,1,25,15,3,1
+25.04. 11:00,Perugia,Monza,2,25,18,3,1
+25.04. 11:00,Perugia,Monza,3,24,26,3,1
+25.04. 11:00,Perugia,Monza,4,25,19,3,1
+24.04. 13:30,Trentino,Milano,1,22,25,0,3
+24.04. 13:30,Trentino,Milano,2,23,25,0,3
+24.04. 13:30,Trentino,Milano,3,14,25,0,3
+22.04. 13:30,Piacenza,Lube Civitanova,1,18,25,2,3
+22.04. 13:30,Piacenza,Lube Civitanova,2,24,26,2,3
+22.04. 13:30,Piacenza,Lube Civitanova,3,25,21,2,3
+22.04. 13:30,Piacenza,Lube Civitanova,4,27,25,2,3
+22.04. 13:30,Piacenza,Lube Civitanova,5,12,15,2,3
+22.04. 13:30,Verona,Modena,1,25,22,3,1
+22.04. 13:30,Verona,Modena,2,25,22,3,1
+22.04. 13:30,Verona,Modena,3,23,25,3,1
+22.04. 13:30,Verona,Modena,4,25,19,3,1
+21.04. 08:15,Monza,Perugia,1,25,20,3,2
+21.04. 08:15,Monza,Perugia,2,23,25,3,2
+21.04. 08:15,Monza,Perugia,3,21,25,3,2
+21.04. 08:15,Monza,Perugia,4,25,19,3,2
+21.04. 08:15,Monza,Perugia,5,15,11,3,2
+20.04. 13:30,Milano,Trentino,1,26,24,3,2
+20.04. 13:30,Milano,Trentino,2,17,25,3,2
+20.04. 13:30,Milano,Trentino,3,25,16,3,2
+20.04. 13:30,Milano,Trentino,4,25,27,3,2
+20.04. 13:30,Milano,Trentino,5,22,20,3,2
+18.04. 13:30,Perugia,Monza,1,27,25,3,1
+18.04. 13:30,Perugia,Monza,2,25,18,3,1
+18.04. 13:30,Perugia,Monza,3,23,25,3,1
+18.04. 13:30,Perugia,Monza,4,25,23,3,1
+17.04. 13:30,Trentino,Milano,1,23,25,3,2
+17.04. 13:30,Trentino,Milano,2,25,18,3,2
+17.04. 13:30,Trentino,Milano,3,23,25,3,2
+17.04. 13:30,Trentino,Milano,4,25,19,3,2
+17.04. 13:30,Trentino,Milano,5,15,11,3,2
+17.04. 13:30,Modena,Padova,1,25,18,3,1
+17.04. 13:30,Modena,Padova,2,25,16,3,1
+17.04. 13:30,Modena,Padova,3,23,25,3,1
+17.04. 13:30,Modena,Padova,4,25,17,3,1
+17.04. 13:30,Piacenza,Lube Civitanova,1,14,25,1,3
+17.04. 13:30,Piacenza,Lube Civitanova,2,22,25,1,3
+17.04. 13:30,Piacenza,Lube Civitanova,3,25,20,1,3
+17.04. 13:30,Piacenza,Lube Civitanova,4,21,25,1,3
+17.04. 13:30,Verona,Cisterna,1,25,23,3,0
+17.04. 13:30,Verona,Cisterna,2,25,15,3,0
+17.04. 13:30,Verona,Cisterna,3,27,25,3,0
+14.04. 11:00,Trentino,Monza,1,18,25,2,3
+14.04. 11:00,Trentino,Monza,2,22,25,2,3
+14.04. 11:00,Trentino,Monza,3,25,23,2,3
+14.04. 11:00,Trentino,Monza,4,26,24,2,3
+14.04. 11:00,Trentino,Monza,5,15,17,2,3
+14.04. 11:00,Lube Civitanova,Cisterna,1,25,18,3,0
+14.04. 11:00,Lube Civitanova,Cisterna,2,25,19,3,0
+14.04. 11:00,Lube Civitanova,Cisterna,3,25,11,3,0
+14.04. 10:00,Padova,Piacenza,1,20,25,0,3
+14.04. 10:00,Padova,Piacenza,2,21,25,0,3
+14.04. 10:00,Padova,Piacenza,3,19,25,0,3
+13.04. 13:30,Verona,Modena,1,25,15,3,0
+13.04. 13:30,Verona,Modena,2,25,18,3,0
+13.04. 13:30,Verona,Modena,3,25,22,3,0
+11.04. 13:30,Milano,Perugia,1,25,18,1,3
+11.04. 13:30,Milano,Perugia,2,24,26,1,3
+11.04. 13:30,Milano,Perugia,3,20,25,1,3
+11.04. 13:30,Milano,Perugia,4,18,25,1,3
+11.04. 13:30,Monza,Trentino,1,22,25,3,1
+11.04. 13:30,Monza,Trentino,2,25,23,3,1
+11.04. 13:30,Monza,Trentino,3,25,23,3,1
+11.04. 13:30,Monza,Trentino,4,25,11,3,1
+10.04. 13:30,Cisterna,Padova,1,19,25,3,1
+10.04. 13:30,Cisterna,Padova,2,25,14,3,1
+10.04. 13:30,Cisterna,Padova,3,25,21,3,1
+10.04. 13:30,Cisterna,Padova,4,25,19,3,1
+10.04. 13:30,Lube Civitanova,Verona,1,22,25,0,3
+10.04. 13:30,Lube Civitanova,Verona,2,23,25,0,3
+10.04. 13:30,Lube Civitanova,Verona,3,17,25,0,3
+10.04. 13:00,Piacenza,Modena,1,25,15,3,1
+10.04. 13:00,Piacenza,Modena,2,20,25,3,1
+10.04. 13:00,Piacenza,Modena,3,25,16,3,1
+10.04. 13:00,Piacenza,Modena,4,25,23,3,1
+07.04. 11:00,Perugia,Milano,1,20,25,3,1
+07.04. 11:00,Perugia,Milano,2,25,18,3,1
+07.04. 11:00,Perugia,Milano,3,25,13,3,1
+07.04. 11:00,Perugia,Milano,4,25,21,3,1
+07.04. 11:00,Modena,Cisterna,1,23,25,3,2
+07.04. 11:00,Modena,Cisterna,2,25,23,3,2
+07.04. 11:00,Modena,Cisterna,3,26,24,3,2
+07.04. 11:00,Modena,Cisterna,4,23,25,3,2
+07.04. 11:00,Modena,Cisterna,5,15,10,3,2
+07.04. 10:00,Trentino,Monza,1,26,24,2,3
+07.04. 10:00,Trentino,Monza,2,22,25,2,3
+07.04. 10:00,Trentino,Monza,3,25,27,2,3
+07.04. 10:00,Trentino,Monza,4,27,25,2,3
+07.04. 10:00,Trentino,Monza,5,13,15,2,3
+07.04. 10:00,Padova,Lube Civitanova,1,25,18,3,0
+07.04. 10:00,Padova,Lube Civitanova,2,25,21,3,0
+07.04. 10:00,Padova,Lube Civitanova,3,25,23,3,0
+07.04. 09:00,Piacenza,Verona,1,25,20,3,2
+07.04. 09:00,Piacenza,Verona,2,23,25,3,2
+07.04. 09:00,Piacenza,Verona,3,25,27,3,2
+07.04. 09:00,Piacenza,Verona,4,25,16,3,2
+07.04. 09:00,Piacenza,Verona,5,15,8,3,2
+04.04. 13:30,Lube Civitanova,Modena,1,25,20,3,1
+04.04. 13:30,Lube Civitanova,Modena,2,25,19,3,1
+04.04. 13:30,Lube Civitanova,Modena,3,10,25,3,1
+04.04. 13:30,Lube Civitanova,Modena,4,25,22,3,1
+03.04. 13:30,Milano,Perugia,1,25,27,3,2
+03.04. 13:30,Milano,Perugia,2,25,21,3,2
+03.04. 13:30,Milano,Perugia,3,21,25,3,2
+03.04. 13:30,Milano,Perugia,4,27,25,3,2
+03.04. 13:30,Milano,Perugia,5,20,18,3,2
+03.04. 13:30,Monza,Trentino,1,15,25,1,3
+03.04. 13:30,Monza,Trentino,2,25,21,1,3
+03.04. 13:30,Monza,Trentino,3,18,25,1,3
+03.04. 13:30,Monza,Trentino,4,18,25,1,3
+03.04. 13:30,Cisterna,Piacenza,1,21,25,1,3
+03.04. 13:30,Cisterna,Piacenza,2,25,18,1,3
+03.04. 13:30,Cisterna,Piacenza,3,15,25,1,3
+03.04. 13:30,Cisterna,Piacenza,4,20,25,1,3
+03.04. 12:00,Verona,Padova,1,25,18,3,1
+03.04. 12:00,Verona,Padova,2,25,18,3,1
+03.04. 12:00,Verona,Padova,3,22,25,3,1
+03.04. 12:00,Verona,Padova,4,25,21,3,1
+31.03. 12:00,Perugia,Milano,1,25,17,3,1
+31.03. 12:00,Perugia,Milano,2,25,23,3,1
+31.03. 12:00,Perugia,Milano,3,23,25,3,1
+31.03. 12:00,Perugia,Milano,4,25,22,3,1
+31.03. 11:00,Trentino,Monza,1,27,25,3,0
+31.03. 11:00,Trentino,Monza,2,25,20,3,0
+31.03. 11:00,Trentino,Monza,3,25,22,3,0
+27.03. 14:30,Lube Civitanova,Monza,1,23,25,1,3
+27.03. 14:30,Lube Civitanova,Monza,2,23,25,1,3
+27.03. 14:30,Lube Civitanova,Monza,3,25,20,1,3
+27.03. 14:30,Lube Civitanova,Monza,4,22,25,1,3
+27.03. 14:30,Piacenza,Milano,1,21,25,0,3
+27.03. 14:30,Piacenza,Milano,2,21,25,0,3
+27.03. 14:30,Piacenza,Milano,3,22,25,0,3
+24.03. 14:30,Milano,Piacenza,1,28,30,3,2
+24.03. 14:30,Milano,Piacenza,2,25,27,3,2
+24.03. 14:30,Milano,Piacenza,3,25,23,3,2
+24.03. 14:30,Milano,Piacenza,4,27,25,3,2
+24.03. 14:30,Milano,Piacenza,5,15,6,3,2
+24.03. 12:00,Monza,Lube Civitanova,1,18,25,2,3
+24.03. 12:00,Monza,Lube Civitanova,2,25,23,2,3
+24.03. 12:00,Monza,Lube Civitanova,3,22,25,2,3
+24.03. 12:00,Monza,Lube Civitanova,4,25,18,2,3
+24.03. 12:00,Monza,Lube Civitanova,5,13,15,2,3
+17.03. 12:00,Lube Civitanova,Monza,1,21,25,3,2
+17.03. 12:00,Lube Civitanova,Monza,2,30,28,3,2
+17.03. 12:00,Lube Civitanova,Monza,3,21,25,3,2
+17.03. 12:00,Lube Civitanova,Monza,4,25,22,3,2
+17.03. 12:00,Lube Civitanova,Monza,5,15,11,3,2
+17.03. 12:00,Perugia,Verona,1,25,22,3,2
+17.03. 12:00,Perugia,Verona,2,25,20,3,2
+17.03. 12:00,Perugia,Verona,3,22,25,3,2
+17.03. 12:00,Perugia,Verona,4,15,25,3,2
+17.03. 12:00,Perugia,Verona,5,17,15,3,2
+17.03. 11:00,Trentino,Modena,1,25,22,3,0
+17.03. 11:00,Trentino,Modena,2,25,19,3,0
+17.03. 11:00,Trentino,Modena,3,25,21,3,0
+16.03. 12:00,Piacenza,Milano,1,25,22,3,2
+16.03. 12:00,Piacenza,Milano,2,23,25,3,2
+16.03. 12:00,Piacenza,Milano,3,17,25,3,2
+16.03. 12:00,Piacenza,Milano,4,31,29,3,2
+16.03. 12:00,Piacenza,Milano,5,15,12,3,2
+10.03. 14:30,Verona,Perugia,1,25,21,1,3
+10.03. 14:30,Verona,Perugia,2,21,25,1,3
+10.03. 14:30,Verona,Perugia,3,16,25,1,3
+10.03. 14:30,Verona,Perugia,4,15,25,1,3
+10.03. 13:00,Milano,Piacenza,1,25,22,1,3
+10.03. 13:00,Milano,Piacenza,2,20,25,1,3
+10.03. 13:00,Milano,Piacenza,3,21,25,1,3
+10.03. 13:00,Milano,Piacenza,4,14,25,1,3
+10.03. 12:00,Monza,Lube Civitanova,1,24,26,3,1
+10.03. 12:00,Monza,Lube Civitanova,2,25,18,3,1
+10.03. 12:00,Monza,Lube Civitanova,3,25,21,3,1
+10.03. 12:00,Monza,Lube Civitanova,4,25,20,3,1
+10.03. 10:00,Modena,Trentino,1,22,25,2,3
+10.03. 10:00,Modena,Trentino,2,28,26,2,3
+10.03. 10:00,Modena,Trentino,3,25,15,2,3
+10.03. 10:00,Modena,Trentino,4,19,25,2,3
+10.03. 10:00,Modena,Trentino,5,13,15,2,3
+06.03. 13:30,Lube Civitanova,Monza,1,26,28,1,3
+06.03. 13:30,Lube Civitanova,Monza,2,25,20,1,3
+06.03. 13:30,Lube Civitanova,Monza,3,11,25,1,3
+06.03. 13:30,Lube Civitanova,Monza,4,20,25,1,3
+06.03. 13:30,Perugia,Verona,1,23,25,3,1
+06.03. 13:30,Perugia,Verona,2,25,16,3,1
+06.03. 13:30,Perugia,Verona,3,25,21,3,1
+06.03. 13:30,Perugia,Verona,4,25,19,3,1
+06.03. 13:30,Piacenza,Milano,1,25,20,2,3
+06.03. 13:30,Piacenza,Milano,2,21,25,2,3
+06.03. 13:30,Piacenza,Milano,3,25,19,2,3
+06.03. 13:30,Piacenza,Milano,4,22,25,2,3
+06.03. 13:30,Piacenza,Milano,5,10,15,2,3
+06.03. 13:30,Trentino,Modena,1,25,23,3,0
+06.03. 13:30,Trentino,Modena,2,25,18,3,0
+06.03. 13:30,Trentino,Modena,3,25,18,3,0
+03.03. 11:00,Milano,Perugia,1,25,22,3,2
+03.03. 11:00,Milano,Perugia,2,25,27,3,2
+03.03. 11:00,Milano,Perugia,3,17,25,3,2
+03.03. 11:00,Milano,Perugia,4,25,23,3,2
+03.03. 11:00,Milano,Perugia,5,15,13,3,2
+03.03. 11:00,Piacenza,Modena,1,25,23,3,1
+03.03. 11:00,Piacenza,Modena,2,24,26,3,1
+03.03. 11:00,Piacenza,Modena,3,25,17,3,1
+03.03. 11:00,Piacenza,Modena,4,25,15,3,1
+03.03. 11:00,Saturnia Acicastello,Taranto,1,25,18,3,1
+03.03. 11:00,Saturnia Acicastello,Taranto,2,25,20,3,1
+03.03. 11:00,Saturnia Acicastello,Taranto,3,24,26,3,1
+03.03. 11:00,Saturnia Acicastello,Taranto,4,25,21,3,1
+03.03. 11:00,Trentino,Padova,1,23,25,1,3
+03.03. 11:00,Trentino,Padova,2,25,21,1,3
+03.03. 11:00,Trentino,Padova,3,19,25,1,3
+03.03. 11:00,Trentino,Padova,4,20,25,1,3
+03.03. 11:00,Verona,Lube Civitanova,1,25,27,0,3
+03.03. 11:00,Verona,Lube Civitanova,2,19,25,0,3
+03.03. 11:00,Verona,Lube Civitanova,3,22,25,0,3
+03.03. 10:30,Monza,Cisterna,1,25,22,3,0
+03.03. 10:30,Monza,Cisterna,2,25,22,3,0
+03.03. 10:30,Monza,Cisterna,3,25,18,3,0
+25.02. 11:00,Cisterna,Verona,1,22,25,0,3
+25.02. 11:00,Cisterna,Verona,2,19,25,0,3
+25.02. 11:00,Cisterna,Verona,3,26,28,0,3
+25.02. 11:00,Modena,Saturnia Acicastello,1,20,25,3,1
+25.02. 11:00,Modena,Saturnia Acicastello,2,25,22,3,1
+25.02. 11:00,Modena,Saturnia Acicastello,3,25,15,3,1
+25.02. 11:00,Modena,Saturnia Acicastello,4,25,12,3,1
+25.02. 11:00,Perugia,Trentino,1,27,25,3,1
+25.02. 11:00,Perugia,Trentino,2,25,20,3,1
+25.02. 11:00,Perugia,Trentino,3,22,25,3,1
+25.02. 11:00,Perugia,Trentino,4,25,17,3,1
+25.02. 10:00,Taranto,Milano,1,29,27,1,3
+25.02. 10:00,Taranto,Milano,2,22,25,1,3
+25.02. 10:00,Taranto,Milano,3,14,25,1,3
+25.02. 10:00,Taranto,Milano,4,21,25,1,3
+25.02. 09:00,Lube Civitanova,Piacenza,1,21,25,0,3
+25.02. 09:00,Lube Civitanova,Piacenza,2,27,29,0,3
+25.02. 09:00,Lube Civitanova,Piacenza,3,22,25,0,3
+24.02. 11:00,Padova,Monza,1,20,25,1,3
+24.02. 11:00,Padova,Monza,2,18,25,1,3
+24.02. 11:00,Padova,Monza,3,25,23,1,3
+24.02. 11:00,Padova,Monza,4,13,25,1,3
+18.02. 12:00,Milano,Verona,1,25,20,3,0
+18.02. 12:00,Milano,Verona,2,25,23,3,0
+18.02. 12:00,Milano,Verona,3,25,16,3,0
+18.02. 11:00,Lube Civitanova,Cisterna,1,23,25,3,2
+18.02. 11:00,Lube Civitanova,Cisterna,2,20,25,3,2
+18.02. 11:00,Lube Civitanova,Cisterna,3,25,17,3,2
+18.02. 11:00,Lube Civitanova,Cisterna,4,25,18,3,2
+18.02. 11:00,Lube Civitanova,Cisterna,5,15,11,3,2
+18.02. 11:00,Trentino,Modena,1,25,22,3,0
+18.02. 11:00,Trentino,Modena,2,25,17,3,0
+18.02. 11:00,Trentino,Modena,3,25,22,3,0
+18.02. 09:00,Padova,Perugia,1,17,25,0,3
+18.02. 09:00,Padova,Perugia,2,21,25,0,3
+18.02. 09:00,Padova,Perugia,3,23,25,0,3
+17.02. 11:00,Piacenza,Taranto,1,23,25,2,3
+17.02. 11:00,Piacenza,Taranto,2,25,21,2,3
+17.02. 11:00,Piacenza,Taranto,3,21,25,2,3
+17.02. 11:00,Piacenza,Taranto,4,29,27,2,3
+17.02. 11:00,Piacenza,Taranto,5,13,15,2,3
+17.02. 10:30,Monza,Saturnia Acicastello,1,25,17,3,0
+17.02. 10:30,Monza,Saturnia Acicastello,2,25,19,3,0
+17.02. 10:30,Monza,Saturnia Acicastello,3,25,17,3,0
+14.02. 13:30,Cisterna,Perugia,1,19,25,1,3
+14.02. 13:30,Cisterna,Perugia,2,25,22,1,3
+14.02. 13:30,Cisterna,Perugia,3,22,25,1,3
+14.02. 13:30,Cisterna,Perugia,4,18,25,1,3
+14.02. 13:30,Modena,Taranto,1,22,25,3,2
+14.02. 13:30,Modena,Taranto,2,25,19,3,2
+14.02. 13:30,Modena,Taranto,3,25,21,3,2
+14.02. 13:30,Modena,Taranto,4,25,27,3,2
+14.02. 13:30,Modena,Taranto,5,15,9,3,2
+14.02. 13:30,Saturnia Acicastello,Padova,1,23,25,2,3
+14.02. 13:30,Saturnia Acicastello,Padova,2,25,21,2,3
+14.02. 13:30,Saturnia Acicastello,Padova,3,20,25,2,3
+14.02. 13:30,Saturnia Acicastello,Padova,4,25,19,2,3
+14.02. 13:30,Saturnia Acicastello,Padova,5,11,15,2,3
+14.02. 13:30,Trentino,Lube Civitanova,1,25,22,3,1
+14.02. 13:30,Trentino,Lube Civitanova,2,19,25,3,1
+14.02. 13:30,Trentino,Lube Civitanova,3,25,19,3,1
+14.02. 13:30,Trentino,Lube Civitanova,4,25,21,3,1
+14.02. 13:30,Verona,Piacenza,1,25,22,3,1
+14.02. 13:30,Verona,Piacenza,2,25,15,3,1
+14.02. 13:30,Verona,Piacenza,3,20,25,3,1
+14.02. 13:30,Verona,Piacenza,4,25,21,3,1
+14.02. 13:00,Milano,Monza,1,21,25,1,3
+14.02. 13:00,Milano,Monza,2,23,25,1,3
+14.02. 13:00,Milano,Monza,3,25,20,1,3
+14.02. 13:00,Milano,Monza,4,16,25,1,3
+11.02. 12:00,Modena,Cisterna,1,25,18,3,0
+11.02. 12:00,Modena,Cisterna,2,25,18,3,0
+11.02. 12:00,Modena,Cisterna,3,25,21,3,0
+11.02. 11:00,Padova,Milano,1,25,23,3,2
+11.02. 11:00,Padova,Milano,2,22,25,3,2
+11.02. 11:00,Padova,Milano,3,25,22,3,2
+11.02. 11:00,Padova,Milano,4,21,25,3,2
+11.02. 11:00,Padova,Milano,5,18,16,3,2
+11.02. 11:00,Taranto,Lube Civitanova,1,25,23,1,3
+11.02. 11:00,Taranto,Lube Civitanova,2,22,25,1,3
+11.02. 11:00,Taranto,Lube Civitanova,3,22,25,1,3
+11.02. 11:00,Taranto,Lube Civitanova,4,28,30,1,3
+11.02. 09:00,Perugia,Verona,1,20,25,2,3
+11.02. 09:00,Perugia,Verona,2,25,21,2,3
+11.02. 09:00,Perugia,Verona,3,14,25,2,3
+11.02. 09:00,Perugia,Verona,4,25,17,2,3
+11.02. 09:00,Perugia,Verona,5,13,15,2,3
+10.02. 11:30,Saturnia Acicastello,Trentino,1,15,25,0,3
+10.02. 11:30,Saturnia Acicastello,Trentino,2,20,25,0,3
+10.02. 11:30,Saturnia Acicastello,Trentino,3,17,25,0,3
+10.02. 10:30,Piacenza,Monza,1,21,25,2,3
+10.02. 10:30,Piacenza,Monza,2,25,19,2,3
+10.02. 10:30,Piacenza,Monza,3,23,25,2,3
+10.02. 10:30,Piacenza,Monza,4,25,20,2,3
+10.02. 10:30,Piacenza,Monza,5,11,15,2,3
+04.02. 13:00,Taranto,Cisterna,1,26,24,1,3
+04.02. 13:00,Taranto,Cisterna,2,17,25,1,3
+04.02. 13:00,Taranto,Cisterna,3,23,25,1,3
+04.02. 13:00,Taranto,Cisterna,4,20,25,1,3
+04.02. 11:00,Lube Civitanova,Modena,1,25,21,3,0
+04.02. 11:00,Lube Civitanova,Modena,2,27,25,3,0
+04.02. 11:00,Lube Civitanova,Modena,3,25,23,3,0
+04.02. 11:00,Piacenza,Perugia,1,18,25,3,1
+04.02. 11:00,Piacenza,Perugia,2,25,22,3,1
+04.02. 11:00,Piacenza,Perugia,3,25,17,3,1
+04.02. 11:00,Piacenza,Perugia,4,25,18,3,1
+03.02. 13:00,Monza,Trentino,1,12,25,0,3
+03.02. 13:00,Monza,Trentino,2,17,25,0,3
+03.02. 13:00,Monza,Trentino,3,17,25,0,3
+03.02. 11:30,Milano,Saturnia Acicastello,1,26,24,3,0
+03.02. 11:30,Milano,Saturnia Acicastello,2,25,19,3,0
+03.02. 11:30,Milano,Saturnia Acicastello,3,25,17,3,0
+03.02. 11:00,Verona,Padova,1,25,19,3,0
+03.02. 11:00,Verona,Padova,2,25,23,3,0
+03.02. 11:00,Verona,Padova,3,25,20,3,0
+25.01. 13:30,Padova,Modena,1,25,22,3,1
+25.01. 13:30,Padova,Modena,2,25,23,3,1
+25.01. 13:30,Padova,Modena,3,22,25,3,1
+25.01. 13:30,Padova,Modena,4,25,23,3,1
+24.01. 13:30,Cisterna,Piacenza,1,23,25,3,1
+24.01. 13:30,Cisterna,Piacenza,2,25,23,3,1
+24.01. 13:30,Cisterna,Piacenza,3,25,22,3,1
+24.01. 13:30,Cisterna,Piacenza,4,25,19,3,1
+24.01. 13:30,Monza,Verona,1,25,23,2,3
+24.01. 13:30,Monza,Verona,2,26,24,2,3
+24.01. 13:30,Monza,Verona,3,23,25,2,3
+24.01. 13:30,Monza,Verona,4,22,25,2,3
+24.01. 13:30,Monza,Verona,5,11,15,2,3
+24.01. 13:30,Perugia,Taranto,1,25,18,3,0
+24.01. 13:30,Perugia,Taranto,2,25,23,3,0
+24.01. 13:30,Perugia,Taranto,3,25,20,3,0
+24.01. 13:30,Saturnia Acicastello,Lube Civitanova,1,25,13,2,3
+24.01. 13:30,Saturnia Acicastello,Lube Civitanova,2,14,25,2,3
+24.01. 13:30,Saturnia Acicastello,Lube Civitanova,3,28,26,2,3
+24.01. 13:30,Saturnia Acicastello,Lube Civitanova,4,15,25,2,3
+24.01. 13:30,Saturnia Acicastello,Lube Civitanova,5,10,15,2,3
+24.01. 13:30,Trentino,Milano,1,25,21,3,0
+24.01. 13:30,Trentino,Milano,2,25,19,3,0
+24.01. 13:30,Trentino,Milano,3,25,21,3,0
+21.01. 12:00,Cisterna,Padova,1,21,25,3,1
+21.01. 12:00,Cisterna,Padova,2,25,18,3,1
+21.01. 12:00,Cisterna,Padova,3,25,20,3,1
+21.01. 12:00,Cisterna,Padova,4,25,14,3,1
+21.01. 11:00,Lube Civitanova,Milano,1,25,19,3,2
+21.01. 11:00,Lube Civitanova,Milano,2,27,25,3,2
+21.01. 11:00,Lube Civitanova,Milano,3,22,25,3,2
+21.01. 11:00,Lube Civitanova,Milano,4,15,25,3,2
+21.01. 11:00,Lube Civitanova,Milano,5,15,12,3,2
+21.01. 11:00,Verona,Saturnia Acicastello,1,25,22,3,1
+21.01. 11:00,Verona,Saturnia Acicastello,2,25,15,3,1
+21.01. 11:00,Verona,Saturnia Acicastello,3,19,25,3,1
+21.01. 11:00,Verona,Saturnia Acicastello,4,25,21,3,1
+21.01. 09:30,Taranto,Monza,1,20,25,1,3
+21.01. 09:30,Taranto,Monza,2,25,21,1,3
+21.01. 09:30,Taranto,Monza,3,22,25,1,3
+21.01. 09:30,Taranto,Monza,4,22,25,1,3
+21.01. 09:00,Piacenza,Trentino,1,18,25,1,3
+21.01. 09:00,Piacenza,Trentino,2,25,19,1,3
+21.01. 09:00,Piacenza,Trentino,3,16,25,1,3
+21.01. 09:00,Piacenza,Trentino,4,15,25,1,3
+20.01. 11:00,Modena,Perugia,1,18,25,0,3
+20.01. 11:00,Modena,Perugia,2,17,25,0,3
+20.01. 11:00,Modena,Perugia,3,18,25,0,3
+14.01. 11:00,Perugia,Lube Civitanova,1,25,14,3,0
+14.01. 11:00,Perugia,Lube Civitanova,2,25,20,3,0
+14.01. 11:00,Perugia,Lube Civitanova,3,25,17,3,0
+14.01. 11:00,Trentino,Verona,1,25,27,3,1
+14.01. 11:00,Trentino,Verona,2,25,16,3,1
+14.01. 11:00,Trentino,Verona,3,25,16,3,1
+14.01. 11:00,Trentino,Verona,4,25,22,3,1
+14.01. 10:45,Monza,Modena,1,18,25,2,3
+14.01. 10:45,Monza,Modena,2,20,25,2,3
+14.01. 10:45,Monza,Modena,3,25,18,2,3
+14.01. 10:45,Monza,Modena,4,25,23,2,3
+14.01. 10:45,Monza,Modena,5,13,15,2,3
+14.01. 10:00,Milano,Cisterna,1,25,22,3,0
+14.01. 10:00,Milano,Cisterna,2,25,17,3,0
+14.01. 10:00,Milano,Cisterna,3,25,23,3,0
+14.01. 10:00,Padova,Taranto,1,25,23,2,3
+14.01. 10:00,Padova,Taranto,2,22,25,2,3
+14.01. 10:00,Padova,Taranto,3,20,25,2,3
+14.01. 10:00,Padova,Taranto,4,25,23,2,3
+14.01. 10:00,Padova,Taranto,5,12,15,2,3
+14.01. 09:00,Saturnia Acicastello,Piacenza,1,21,25,1,3
+14.01. 09:00,Saturnia Acicastello,Piacenza,2,25,23,1,3
+14.01. 09:00,Saturnia Acicastello,Piacenza,3,17,25,1,3
+14.01. 09:00,Saturnia Acicastello,Piacenza,4,23,25,1,3
+07.01. 13:00,Cisterna,Saturnia Acicastello,1,25,21,3,1
+07.01. 13:00,Cisterna,Saturnia Acicastello,2,25,18,3,1
+07.01. 13:00,Cisterna,Saturnia Acicastello,3,22,25,3,1
+07.01. 13:00,Cisterna,Saturnia Acicastello,4,25,22,3,1
+07.01. 11:15,Perugia,Monza,1,25,21,3,0
+07.01. 11:15,Perugia,Monza,2,25,21,3,0
+07.01. 11:15,Perugia,Monza,3,25,21,3,0
+07.01. 11:00,Modena,Verona,1,21,25,0,3
+07.01. 11:00,Modena,Verona,2,18,25,0,3
+07.01. 11:00,Modena,Verona,3,13,25,0,3
+07.01. 10:00,Taranto,Trentino,1,23,25,0,3
+07.01. 10:00,Taranto,Trentino,2,20,25,0,3
+07.01. 10:00,Taranto,Trentino,3,20,25,0,3
+06.01. 11:00,Lube Civitanova,Padova,1,25,19,3,0
+06.01. 11:00,Lube Civitanova,Padova,2,25,17,3,0
+06.01. 11:00,Lube Civitanova,Padova,3,25,23,3,0
+06.01. 11:00,Piacenza,Milano,1,25,23,3,2
+06.01. 11:00,Piacenza,Milano,2,21,25,3,2
+06.01. 11:00,Piacenza,Milano,3,19,25,3,2
+06.01. 11:00,Piacenza,Milano,4,25,19,3,2
+06.01. 11:00,Piacenza,Milano,5,15,13,3,2
+30.12. 11:00,Milano,Modena,1,27,25,3,0
+30.12. 11:00,Milano,Modena,2,25,17,3,0
+30.12. 11:00,Milano,Modena,3,25,18,3,0
+30.12. 11:00,Monza,Lube Civitanova,1,27,25,1,3
+30.12. 11:00,Monza,Lube Civitanova,2,21,25,1,3
+30.12. 11:00,Monza,Lube Civitanova,3,22,25,1,3
+30.12. 11:00,Monza,Lube Civitanova,4,23,25,1,3
+30.12. 11:00,Padova,Piacenza,1,26,24,1,3
+30.12. 11:00,Padova,Piacenza,2,21,25,1,3
+30.12. 11:00,Padova,Piacenza,3,19,25,1,3
+30.12. 11:00,Padova,Piacenza,4,18,25,1,3
+30.12. 11:00,Saturnia Acicastello,Perugia,1,20,25,0,3
+30.12. 11:00,Saturnia Acicastello,Perugia,2,24,26,0,3
+30.12. 11:00,Saturnia Acicastello,Perugia,3,19,25,0,3
+30.12. 11:00,Trentino,Cisterna,1,25,19,3,0
+30.12. 11:00,Trentino,Cisterna,2,25,20,3,0
+30.12. 11:00,Trentino,Cisterna,3,25,20,3,0
+29.12. 12:00,Verona,Taranto,1,26,24,3,1
+29.12. 12:00,Verona,Taranto,2,25,12,3,1
+29.12. 12:00,Verona,Taranto,3,20,25,3,1
+29.12. 12:00,Verona,Taranto,4,25,15,3,1
+26.12. 11:00,Cisterna,Monza,1,25,18,3,1
+26.12. 11:00,Cisterna,Monza,2,25,20,3,1
+26.12. 11:00,Cisterna,Monza,3,21,25,3,1
+26.12. 11:00,Cisterna,Monza,4,25,22,3,1
+26.12. 11:00,Modena,Piacenza,1,20,25,0,3
+26.12. 11:00,Modena,Piacenza,2,19,25,0,3
+26.12. 11:00,Modena,Piacenza,3,21,25,0,3
+26.12. 11:00,Padova,Trentino,1,20,25,0,3
+26.12. 11:00,Padova,Trentino,2,32,34,0,3
+26.12. 11:00,Padova,Trentino,3,22,25,0,3
+26.12. 11:00,Perugia,Milano,1,25,14,2,3
+26.12. 11:00,Perugia,Milano,2,25,20,2,3
+26.12. 11:00,Perugia,Milano,3,12,25,2,3
+26.12. 11:00,Perugia,Milano,4,22,25,2,3
+26.12. 11:00,Perugia,Milano,5,12,15,2,3
+26.12. 11:00,Taranto,Saturnia Acicastello,1,25,19,3,1
+26.12. 11:00,Taranto,Saturnia Acicastello,2,25,23,3,1
+26.12. 11:00,Taranto,Saturnia Acicastello,3,17,25,3,1
+26.12. 11:00,Taranto,Saturnia Acicastello,4,25,23,3,1
+26.12. 08:30,Lube Civitanova,Verona,1,25,22,2,3
+26.12. 08:30,Lube Civitanova,Verona,2,25,18,2,3
+26.12. 08:30,Lube Civitanova,Verona,3,16,25,2,3
+26.12. 08:30,Lube Civitanova,Verona,4,23,25,2,3
+26.12. 08:30,Lube Civitanova,Verona,5,12,15,2,3
+17.12. 11:00,Monza,Padova,1,25,21,3,0
+17.12. 11:00,Monza,Padova,2,25,21,3,0
+17.12. 11:00,Monza,Padova,3,25,21,3,0
+17.12. 11:00,Verona,Cisterna,1,25,23,3,0
+17.12. 11:00,Verona,Cisterna,2,25,17,3,0
+17.12. 11:00,Verona,Cisterna,3,27,25,3,0
+17.12. 09:30,Milano,Taranto,1,19,25,3,2
+17.12. 09:30,Milano,Taranto,2,26,24,3,2
+17.12. 09:30,Milano,Taranto,3,22,25,3,2
+17.12. 09:30,Milano,Taranto,4,25,16,3,2
+17.12. 09:30,Milano,Taranto,5,15,3,3,2
+17.12. 09:00,Piacenza,Lube Civitanova,1,27,29,2,3
+17.12. 09:00,Piacenza,Lube Civitanova,2,20,25,2,3
+17.12. 09:00,Piacenza,Lube Civitanova,3,25,21,2,3
+17.12. 09:00,Piacenza,Lube Civitanova,4,25,22,2,3
+17.12. 09:00,Piacenza,Lube Civitanova,5,10,15,2,3
+17.12. 08:45,Trentino,Perugia,1,25,21,3,1
+17.12. 08:45,Trentino,Perugia,2,25,23,3,1
+17.12. 08:45,Trentino,Perugia,3,23,25,3,1
+17.12. 08:45,Trentino,Perugia,4,25,23,3,1
+16.12. 11:00,Saturnia Acicastello,Modena,1,25,22,2,3
+16.12. 11:00,Saturnia Acicastello,Modena,2,18,25,2,3
+16.12. 11:00,Saturnia Acicastello,Modena,3,25,19,2,3
+16.12. 11:00,Saturnia Acicastello,Modena,4,20,25,2,3
+16.12. 11:00,Saturnia Acicastello,Modena,5,13,15,2,3
+10.12. 13:30,Verona,Milano,1,23,25,3,2
+10.12. 13:30,Verona,Milano,2,25,21,3,2
+10.12. 13:30,Verona,Milano,3,23,25,3,2
+10.12. 13:30,Verona,Milano,4,25,21,3,2
+10.12. 13:30,Verona,Milano,5,15,11,3,2
+10.12. 11:00,Modena,Trentino,1,21,25,3,1
+10.12. 11:00,Modena,Trentino,2,27,25,3,1
+10.12. 11:00,Modena,Trentino,3,25,22,3,1
+10.12. 11:00,Modena,Trentino,4,25,16,3,1
+10.12. 09:30,Saturnia Acicastello,Monza,1,16,25,1,3
+10.12. 09:30,Saturnia Acicastello,Monza,2,25,22,1,3
+10.12. 09:30,Saturnia Acicastello,Monza,3,12,25,1,3
+10.12. 09:30,Saturnia Acicastello,Monza,4,18,25,1,3
+08.12. 13:30,Taranto,Piacenza,1,25,19,1,3
+08.12. 13:30,Taranto,Piacenza,2,20,25,1,3
+08.12. 13:30,Taranto,Piacenza,3,18,25,1,3
+08.12. 13:30,Taranto,Piacenza,4,16,25,1,3
+08.12. 11:00,Cisterna,Lube Civitanova,1,14,25,1,3
+08.12. 11:00,Cisterna,Lube Civitanova,2,21,25,1,3
+08.12. 11:00,Cisterna,Lube Civitanova,3,25,22,1,3
+08.12. 11:00,Cisterna,Lube Civitanova,4,19,25,1,3
+04.12. 13:00,Monza,Milano,1,16,25,0,3
+04.12. 13:00,Monza,Milano,2,18,25,0,3
+04.12. 13:00,Monza,Milano,3,18,25,0,3
+03.12. 13:30,Piacenza,Verona,1,27,25,3,0
+03.12. 13:30,Piacenza,Verona,2,25,23,3,0
+03.12. 13:30,Piacenza,Verona,3,25,20,3,0
+03.12. 11:00,Lube Civitanova,Trentino,1,17,25,0,3
+03.12. 11:00,Lube Civitanova,Trentino,2,22,25,0,3
+03.12. 11:00,Lube Civitanova,Trentino,3,16,25,0,3
+03.12. 11:00,Padova,Saturnia Acicastello,1,25,18,3,1
+03.12. 11:00,Padova,Saturnia Acicastello,2,18,25,3,1
+03.12. 11:00,Padova,Saturnia Acicastello,3,25,19,3,1
+03.12. 11:00,Padova,Saturnia Acicastello,4,25,18,3,1
+02.12. 13:30,Perugia,Cisterna,1,25,16,3,1
+02.12. 13:30,Perugia,Cisterna,2,25,19,3,1
+02.12. 13:30,Perugia,Cisterna,3,20,25,3,1
+02.12. 13:30,Perugia,Cisterna,4,25,23,3,1
+02.12. 11:00,Taranto,Modena,1,22,25,2,3
+02.12. 11:00,Taranto,Modena,2,25,20,2,3
+02.12. 11:00,Taranto,Modena,3,25,18,2,3
+02.12. 11:00,Taranto,Modena,4,17,25,2,3
+02.12. 11:00,Taranto,Modena,5,13,15,2,3
+26.11. 13:30,Monza,Piacenza,1,22,25,3,2
+26.11. 13:30,Monza,Piacenza,2,25,21,3,2
+26.11. 13:30,Monza,Piacenza,3,19,25,3,2
+26.11. 13:30,Monza,Piacenza,4,25,20,3,2
+26.11. 13:30,Monza,Piacenza,5,15,12,3,2
+26.11. 13:00,Milano,Padova,1,25,17,3,0
+26.11. 13:00,Milano,Padova,2,26,24,3,0
+26.11. 13:00,Milano,Padova,3,25,19,3,0
+26.11. 11:00,Lube Civitanova,Taranto,1,25,22,3,2
+26.11. 11:00,Lube Civitanova,Taranto,2,22,25,3,2
+26.11. 11:00,Lube Civitanova,Taranto,3,21,25,3,2
+26.11. 11:00,Lube Civitanova,Taranto,4,25,22,3,2
+26.11. 11:00,Lube Civitanova,Taranto,5,18,16,3,2
+26.11. 11:00,Trentino,Saturnia Acicastello,1,25,15,3,0
+26.11. 11:00,Trentino,Saturnia Acicastello,2,25,17,3,0
+26.11. 11:00,Trentino,Saturnia Acicastello,3,25,18,3,0
+26.11. 11:00,Verona,Perugia,1,18,25,0,3
+26.11. 11:00,Verona,Perugia,2,20,25,0,3
+26.11. 11:00,Verona,Perugia,3,22,25,0,3
+25.11. 11:00,Cisterna,Modena,1,11,25,1,3
+25.11. 11:00,Cisterna,Modena,2,25,22,1,3
+25.11. 11:00,Cisterna,Modena,3,20,25,1,3
+25.11. 11:00,Cisterna,Modena,4,16,25,1,3
+22.11. 13:30,Perugia,Padova,1,25,16,3,0
+22.11. 13:30,Perugia,Padova,2,25,22,3,0
+22.11. 13:30,Perugia,Padova,3,25,21,3,0
+19.11. 11:00,Cisterna,Taranto,1,25,27,3,2
+19.11. 11:00,Cisterna,Taranto,2,20,25,3,2
+19.11. 11:00,Cisterna,Taranto,3,25,18,3,2
+19.11. 11:00,Cisterna,Taranto,4,25,13,3,2
+19.11. 11:00,Cisterna,Taranto,5,17,15,3,2
+19.11. 11:00,Saturnia Acicastello,Milano,1,25,20,1,3
+19.11. 11:00,Saturnia Acicastello,Milano,2,22,25,1,3
+19.11. 11:00,Saturnia Acicastello,Milano,3,22,25,1,3
+19.11. 11:00,Saturnia Acicastello,Milano,4,21,25,1,3
+19.11. 11:00,Trentino,Monza,1,19,25,3,1
+19.11. 11:00,Trentino,Monza,2,25,22,3,1
+19.11. 11:00,Trentino,Monza,3,25,23,3,1
+19.11. 11:00,Trentino,Monza,4,25,23,3,1
+19.11. 10:30,Perugia,Piacenza,1,21,25,3,2
+19.11. 10:30,Perugia,Piacenza,2,20,25,3,2
+19.11. 10:30,Perugia,Piacenza,3,25,18,3,2
+19.11. 10:30,Perugia,Piacenza,4,26,24,3,2
+19.11. 10:30,Perugia,Piacenza,5,20,18,3,2
+19.11. 09:00,Modena,Lube Civitanova,1,20,25,0,3
+19.11. 09:00,Modena,Lube Civitanova,2,19,25,0,3
+19.11. 09:00,Modena,Lube Civitanova,3,20,25,0,3
+18.11. 11:00,Padova,Verona,1,25,17,3,1
+18.11. 11:00,Padova,Verona,2,13,25,3,1
+18.11. 11:00,Padova,Verona,3,25,20,3,1
+18.11. 11:00,Padova,Verona,4,25,23,3,1
+15.11. 13:30,Lube Civitanova,Saturnia Acicastello,1,25,22,3,0
+15.11. 13:30,Lube Civitanova,Saturnia Acicastello,2,25,19,3,0
+15.11. 13:30,Lube Civitanova,Saturnia Acicastello,3,25,16,3,0
+15.11. 13:30,Milano,Trentino,1,22,25,1,3
+15.11. 13:30,Milano,Trentino,2,25,21,1,3
+15.11. 13:30,Milano,Trentino,3,19,25,1,3
+15.11. 13:30,Milano,Trentino,4,16,25,1,3
+15.11. 13:30,Modena,Padova,1,23,25,3,1
+15.11. 13:30,Modena,Padova,2,25,18,3,1
+15.11. 13:30,Modena,Padova,3,27,25,3,1
+15.11. 13:30,Modena,Padova,4,25,11,3,1
+15.11. 13:30,Piacenza,Cisterna,1,25,13,3,1
+15.11. 13:30,Piacenza,Cisterna,2,27,25,3,1
+15.11. 13:30,Piacenza,Cisterna,3,23,25,3,1
+15.11. 13:30,Piacenza,Cisterna,4,25,20,3,1
+15.11. 11:00,Taranto,Perugia,1,20,25,1,3
+15.11. 11:00,Taranto,Perugia,2,20,25,1,3
+15.11. 11:00,Taranto,Perugia,3,25,20,1,3
+15.11. 11:00,Taranto,Perugia,4,14,25,1,3
+12.11. 13:00,Saturnia Acicastello,Verona,1,23,25,1,3
+12.11. 13:00,Saturnia Acicastello,Verona,2,22,25,1,3
+12.11. 13:00,Saturnia Acicastello,Verona,3,27,25,1,3
+12.11. 13:00,Saturnia Acicastello,Verona,4,16,25,1,3
+12.11. 11:00,Milano,Lube Civitanova,1,25,21,3,0
+12.11. 11:00,Milano,Lube Civitanova,2,27,25,3,0
+12.11. 11:00,Milano,Lube Civitanova,3,25,21,3,0
+12.11. 11:00,Perugia,Modena,1,14,25,3,1
+12.11. 11:00,Perugia,Modena,2,25,18,3,1
+12.11. 11:00,Perugia,Modena,3,25,20,3,1
+12.11. 11:00,Perugia,Modena,4,25,18,3,1
+12.11. 10:00,Monza,Taranto,1,25,14,3,0
+12.11. 10:00,Monza,Taranto,2,25,10,3,0
+12.11. 10:00,Monza,Taranto,3,25,17,3,0
+12.11. 09:00,Padova,Cisterna,1,25,23,3,2
+12.11. 09:00,Padova,Cisterna,2,25,21,3,2
+12.11. 09:00,Padova,Cisterna,3,23,25,3,2
+12.11. 09:00,Padova,Cisterna,4,23,25,3,2
+12.11. 09:00,Padova,Cisterna,5,15,12,3,2
+11.11. 13:30,Trentino,Piacenza,1,26,24,3,1
+11.11. 13:30,Trentino,Piacenza,2,25,19,3,1
+11.11. 13:30,Trentino,Piacenza,3,16,25,3,1
+11.11. 13:30,Trentino,Piacenza,4,25,18,3,1
+08.11. 13:30,Verona,Monza,1,20,25,1,3
+08.11. 13:30,Verona,Monza,2,25,23,1,3
+08.11. 13:30,Verona,Monza,3,22,25,1,3
+08.11. 13:30,Verona,Monza,4,20,25,1,3
+05.11. 12:30,Verona,Trentino,1,18,25,0,3
+05.11. 12:30,Verona,Trentino,2,17,25,0,3
+05.11. 12:30,Verona,Trentino,3,15,25,0,3
+05.11. 11:30,Lube Civitanova,Perugia,1,20,25,3,2
+05.11. 11:30,Lube Civitanova,Perugia,2,35,33,3,2
+05.11. 11:30,Lube Civitanova,Perugia,3,25,21,3,2
+05.11. 11:30,Lube Civitanova,Perugia,4,16,25,3,2
+05.11. 11:30,Lube Civitanova,Perugia,5,22,20,3,2
+05.11. 11:00,Modena,Monza,1,19,25,0,3
+05.11. 11:00,Modena,Monza,2,19,25,0,3
+05.11. 11:00,Modena,Monza,3,19,25,0,3
+05.11. 10:00,Taranto,Padova,1,22,25,2,3
+05.11. 10:00,Taranto,Padova,2,25,15,2,3
+05.11. 10:00,Taranto,Padova,3,25,20,2,3
+05.11. 10:00,Taranto,Padova,4,18,25,2,3
+05.11. 10:00,Taranto,Padova,5,16,18,2,3
+05.11. 09:00,Piacenza,Saturnia Acicastello,1,25,17,3,0
+05.11. 09:00,Piacenza,Saturnia Acicastello,2,33,31,3,0
+05.11. 09:00,Piacenza,Saturnia Acicastello,3,25,17,3,0
+04.11. 12:00,Cisterna,Milano,1,25,14,3,0
+04.11. 12:00,Cisterna,Milano,2,25,15,3,0
+04.11. 12:00,Cisterna,Milano,3,25,23,3,0
+29.10. 15:00,Saturnia Acicastello,Cisterna,1,22,25,3,1
+29.10. 15:00,Saturnia Acicastello,Cisterna,2,26,24,3,1
+29.10. 15:00,Saturnia Acicastello,Cisterna,3,26,24,3,1
+29.10. 15:00,Saturnia Acicastello,Cisterna,4,25,14,3,1
+29.10. 13:30,Monza,Perugia,1,23,25,0,3
+29.10. 13:30,Monza,Perugia,2,30,32,0,3
+29.10. 13:30,Monza,Perugia,3,22,25,0,3
+29.10. 10:30,Milano,Piacenza,1,23,25,0,3
+29.10. 10:30,Milano,Piacenza,2,21,25,0,3
+29.10. 10:30,Milano,Piacenza,3,23,25,0,3
+29.10. 09:00,Padova,Lube Civitanova,1,22,25,0,3
+29.10. 09:00,Padova,Lube Civitanova,2,20,25,0,3
+29.10. 09:00,Padova,Lube Civitanova,3,21,25,0,3
+28.10. 13:30,Trentino,Taranto,1,25,16,3,2
+28.10. 13:30,Trentino,Taranto,2,23,25,3,2
+28.10. 13:30,Trentino,Taranto,3,18,25,3,2
+28.10. 13:30,Trentino,Taranto,4,26,24,3,2
+28.10. 13:30,Trentino,Taranto,5,15,8,3,2
+28.10. 11:00,Verona,Modena,1,25,23,2,3
+28.10. 11:00,Verona,Modena,2,25,17,2,3
+28.10. 11:00,Verona,Modena,3,20,25,2,3
+28.10. 11:00,Verona,Modena,4,23,25,2,3
+28.10. 11:00,Verona,Modena,5,11,15,2,3
+22.10. 13:00,Perugia,Saturnia Acicastello,1,25,15,3,0
+22.10. 13:00,Perugia,Saturnia Acicastello,2,25,18,3,0
+22.10. 13:00,Perugia,Saturnia Acicastello,3,25,22,3,0
+22.10. 11:00,Cisterna,Trentino,1,18,25,2,3
+22.10. 11:00,Cisterna,Trentino,2,25,15,2,3
+22.10. 11:00,Cisterna,Trentino,3,28,26,2,3
+22.10. 11:00,Cisterna,Trentino,4,17,25,2,3
+22.10. 11:00,Cisterna,Trentino,5,8,15,2,3
+22.10. 11:00,Lube Civitanova,Monza,1,23,25,0,3
+22.10. 11:00,Lube Civitanova,Monza,2,21,25,0,3
+22.10. 11:00,Lube Civitanova,Monza,3,22,25,0,3
+22.10. 11:00,Piacenza,Padova,1,25,21,3,0
+22.10. 11:00,Piacenza,Padova,2,25,19,3,0
+22.10. 11:00,Piacenza,Padova,3,25,16,3,0
+22.10. 09:00,Taranto,Verona,1,22,25,1,3
+22.10. 09:00,Taranto,Verona,2,22,25,1,3
+22.10. 09:00,Taranto,Verona,3,28,26,1,3
+22.10. 09:00,Taranto,Verona,4,16,25,1,3
+22.10. 08:45,Modena,Milano,1,25,19,3,2
+22.10. 08:45,Modena,Milano,2,12,25,3,2
+22.10. 08:45,Modena,Milano,3,21,25,3,2
+22.10. 08:45,Modena,Milano,4,26,24,3,2
+22.10. 08:45,Modena,Milano,5,15,12,3,2
