@@ -2,7 +2,7 @@ import re
 import csv
 
 # Read data from a text file
-with open('volleyball_data.txt', 'r', encoding='utf-8') as file:
+with open('C:\GUSTAVO\Projects\\volley\\volley-backend\get_data\\volleyball_data.txt', 'r', encoding='utf-8') as file:
     lines = [line.strip() for line in file if line.strip()]  # Strips whitespace and filters out empty lines
 
 # Initialize a list to store each match’s parsed data
@@ -42,7 +42,7 @@ while i < len(lines):
         i += 1  # Move to the next line if no match is found
 
 # Write matches to CSV
-with open('superlega_matches_large.csv', 'w', newline='') as csvfile:
+with open('C:\GUSTAVO\Projects\\volley\\volley-backend\data_2022-2023.csv', 'w', newline='') as csvfile:
     csvwriter = csv.writer(csvfile)
     csvwriter.writerow(["Date & Time", "Home Team", "Away Team", "Home Score", "Away Score", "Home Set Scores", "Away Set Scores"])
     csvwriter.writerows(matches)
