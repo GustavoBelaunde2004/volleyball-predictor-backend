@@ -27,5 +27,6 @@ class SetScorePredictionResponse(BaseModel):
 
 class MatchDetailsResponse(BaseModel):
     winner: str
-    total_score: str
-    sets: dict
+    home_sets_won: int
+    away_sets_won: int
+    sets: dict  # Adjust as necessary for your specific structure
