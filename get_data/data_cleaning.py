@@ -42,7 +42,7 @@ while i < len(lines):
         i += 1  # Move to the next line if no match is found
 
 # Write matches to CSV
-with open('C:\GUSTAVO\Projects\\volley\\volley-backend\data_2022-2023.csv', 'w', newline='') as csvfile:
+with open('C:\GUSTAVO\Projects\\volley\\volley-backend\data_2020-2021.csv', 'w', newline='') as csvfile:
     csvwriter = csv.writer(csvfile)
     csvwriter.writerow(["Date & Time", "Home Team", "Away Team", "Home Score", "Away Score", "Home Set Scores", "Away Set Scores"])
     csvwriter.writerows(matches)

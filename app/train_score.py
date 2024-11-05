@@ -16,7 +16,20 @@ data = data.merge(team_stats, left_on='Home Team', right_on='Team').rename(colum
 data = data.merge(team_stats, left_on='Away Team', right_on='Team').rename(columns={'avg_points': 'away_avg_points', 'win_rate': 'away_win_rate'})
 data = data.drop(columns=['Team_x', 'Team_y'])
 
-# Prepare expanded training data with match state features
+# Create rolling averages and recent performance stats
+def calculate_recent_performance(df, team_column, score_column):
+    df[f'{team_column}_recent_avg_points'] = df.groupby(team_column)[score_column].transform(lambda x: x.rolling(3, min_periods=1).mean())
+    df[f'{team_column}_win_rate_last_3'] = df.groupby(team_column)['match_winner'].transform(lambda x: x.rolling(3, min_periods=1).mean())
+    return df
+
+data = calculate_recent_performance(data, 'Home Team', 'Home Score')
+data = calculate_recent_performance(data, 'Away Team', 'Away Score')
+
+# Calculate set-by-set performance stats
+data['home_score_variance'] = data['Home Set Scores'].apply(lambda x: np.var([int(score) for score in x.split()]))
+data['away_score_variance'] = data['Away Set Scores'].apply(lambda x: np.var([int(score) for score in x.split()]))
+
+# Prepare expanded training data with match state and new features
 X_expanded = []
 y_home_flat = []
 y_away_flat = []
@@ -31,12 +44,15 @@ for _, row in data.iterrows():
         if home_sets_won == 3 or away_sets_won == 3:
             break
         
-        # Append the match state feature
+        # Append the match state and new features
         X_expanded.append([
             row['home_avg_points'], row['home_win_rate'],
             row['away_avg_points'], row['away_win_rate'],
             row['match_winner'], set_number,
-            home_sets_won, away_sets_won  # Current match state
+            home_sets_won, away_sets_won,
+            row['Home Team_recent_avg_points'], row['Away Team_recent_avg_points'],
+            row['home_score_variance'], row['away_score_variance'],
+            row['Home Team_win_rate_last_3'], row['Away Team_win_rate_last_3']
         ])
         y_home_flat.append(home_score)
         y_away_flat.append(away_score)
@@ -49,7 +65,10 @@ for _, row in data.iterrows():
 
 X_expanded_df = pd.DataFrame(X_expanded, columns=[
     'home_avg_points', 'home_win_rate', 'away_avg_points', 'away_win_rate', 'match_winner', 'set_number',
-    'home_sets_won', 'away_sets_won'
+    'home_sets_won', 'away_sets_won',
+    'home_recent_avg_points', 'away_recent_avg_points',
+    'home_score_variance', 'away_score_variance',
+    'home_win_rate_last_3', 'away_win_rate_last_3'
 ])
 
 # Standardize features

@@ -25,14 +25,12 @@ def adjust_scores(home_score, away_score):
     elif away_score >= 25 and home_score < 25:
         return home_score, away_score
     elif home_score < 25 and away_score < 25:
-        # Adjust to make one team reach 25 if close
         if home_score > away_score:
             home_score = max(25, home_score)
         else:
             away_score = max(25, away_score)
         return home_score, away_score
     else:
-        # If both teams scored >= 25, ensure one wins by 2 points
         if abs(home_score - away_score) < 2:
             if home_score > away_score:
                 home_score += 2
@@ -57,7 +55,7 @@ async def predict_match_details(request: MatchPredictionRequest):
 
     # Predict each set's score up to 5 sets (best-of-5 format)
     for set_number in range(1, 6):
-        # Add dynamic match state (home_sets_won and away_sets_won)
+        # Create feature list with new added features
         score_features = [[
             home_stats['avg_points'].iloc[0],
             home_stats['win_rate'].iloc[0],
@@ -66,7 +64,13 @@ async def predict_match_details(request: MatchPredictionRequest):
             set_number,
             home_sets_won,
             away_sets_won,
-            1 if home_sets_won > away_sets_won else 0  # match_winner to reflect current state
+            1 if home_sets_won > away_sets_won else 0,  # Current match state
+            home_stats['recent_home_avg'].iloc[0],
+            away_stats['recent_away_avg'].iloc[0],
+            home_stats['home_set_variance'].iloc[0],
+            away_stats['away_set_variance'].iloc[0],
+            home_stats['home_last_5_games_avg'].iloc[0],
+            away_stats['away_last_5_games_avg'].iloc[0]
         ]]
 
         # Predict and adjust scores
