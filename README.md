@@ -31,6 +31,6 @@ volleyball-predictor-backend/
 Language: Python
 Framework: FastAPI
 Dependencies:
-uvicorn: ASGI server to run the FastAPI app.
-pandas: For data manipulation.
-scikit-learn: For model-based predictions.
+  - uvicorn: ASGI server to run the FastAPI app.
+  - pandas: For data manipulation.
+  - scikit-learn: For model-based predictions.
