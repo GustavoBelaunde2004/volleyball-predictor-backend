@@ -1,6 +1,17 @@
 # Volleyball Match Predictor Backend
 
-This repository contains the backend for the **Volleyball Match Predictor** app, designed to predict match outcomes based on team statistics from the Italian Superlega.
+This repository contains the backend for the **Volleyball Match Predictor** app. The backend is a key component of the full application, designed to predict volleyball match outcomes based on team statistics from the Italian Superlega.
+
+The **frontend** of the application, built using Flutter, communicates with this backend via RESTful APIs. For more details about the frontend, visit the [Volleyball Match Predictor Frontend Repository](https://github.com/GustavoBelaunde2004/volleyball-predictor-frontend).
+
+## About the Full Application
+
+The **Volleyball Match Predictor** app consists of two parts:
+1. **Backend** (this repository): Handles data processing, prediction logic, and API endpoints.
+2. **Frontend**: Provides a user-friendly interface for team selection and displays match predictions. The frontend is available [here](https://github.com/GustavoBelaunde2004/volleyball-predictor-frontend).
+
+Together, these components create an end-to-end system for predicting volleyball match outcomes with accuracy and ease of use.
+
 
 ## Features
 
