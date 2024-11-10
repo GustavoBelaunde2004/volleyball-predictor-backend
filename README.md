@@ -26,3 +26,11 @@ volleyball-predictor-backend/
 ├── requirements.txt         # List of Python dependencies
 ├── .gitignore               # Ignored files and folders
 └── README.md                # Project documentation
+```
+## Tech Stack
+Language: Python
+Framework: FastAPI
+Dependencies:
+uvicorn: ASGI server to run the FastAPI app.
+pandas: For data manipulation.
+scikit-learn: For model-based predictions.
