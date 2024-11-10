@@ -84,3 +84,11 @@ Response:
   "set_scores": [25, 20, 25, 15]
 }
 ```
+
+## Future Enhancements
+- Machine Learning Integration:
+  	- Add ML models for more accurate match predictions.
+- Support for More Leagues:
+  - Expand beyond the Italian Superlega.
+- Database Integration:
+  - Store historical match data for analytics.
