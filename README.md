@@ -34,3 +34,57 @@ volleyball-predictor-backend/
   - uvicorn: ASGI server to run the FastAPI app.
   - pandas: For data manipulation.
   - scikit-learn: For model-based predictions.
+
+## Installation
+Clone the Repository:
+
+```plaintext
+git clone https://github.com/yourusername/volleyball-predictor-backend.git
+cd volleyball-predictor-backend
+```
+
+Set Up a Virtual Environment:
+```plaintext
+python -m venv venv
+source venv/bin/activate  # Linux/MacOS
+venv\Scripts\activate     # Windows
+```
+
+Install Dependencies:
+
+```plaintext
+pip install -r requirements.txt
+```
+
+## Usage
+Start the Server: Run the FastAPI server using Uvicorn:
+
+```
+uvicorn app.main:app --reload
+```
+
+Access the API: The API will be available at:
+```plaintext
+http://127.0.0.1:8000
+```
+
+Endpoints:
+
+```plaintext
+POST /match-details:
+Request:
+json
+
+{
+  "home_team": "Perugia",
+  "away_team": "Trentino"
+}
+Response:
+json
+
+{
+  "winner": "Perugia",
+  "sets_won": {"home": 3, "away": 1},
+  "set_scores": [25, 20, 25, 15]
+}
+```
