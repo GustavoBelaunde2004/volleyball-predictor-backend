@@ -92,3 +92,21 @@ Response:
   - Expand beyond the Italian Superlega.
 - Database Integration:
   - Store historical match data for analytics.
+
+## Contributing
+We welcome contributions! Please follow these steps:
+
+1) Fork the repository
+2) Create a feature branch:
+```plaintext
+git checkout -b feature/your-feature-name
+```
+3) Commit your changes:
+```plaintext
+git commit -m "Add your message here"
+```
+4) Push to the branch:
+```plaintext
+git push origin feature/your-feature-name
+```
+5) Open a pull request on GitHub!
