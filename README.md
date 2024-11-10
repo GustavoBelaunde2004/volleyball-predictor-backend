@@ -72,16 +72,12 @@ Endpoints:
 
 ```plaintext
 POST /match-details:
-Request:
-json
-
 {
   "home_team": "Perugia",
   "away_team": "Trentino"
 }
-Response:
-json
 
+Response:
 {
   "winner": "Perugia",
   "sets_won": {"home": 3, "away": 1},
